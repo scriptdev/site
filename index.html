@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+    <head>
+        <meta charset="utf-8">
+        <title>ScriptDev | fabricio</title>
+        <meta content="width=device-width, initial-scale=1.0" name="viewport">
+        <meta content="" name="keywords">
+        <meta content="" name="description">
+
+        <!-- Google Web Fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@600;700;800&display=swap" rel="stylesheet"> 
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500&display=swap" rel="stylesheet">
+
+        <!-- Icon Font Stylesheet -->
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+        <!-- Libraries Stylesheet -->
+        <link href="lib/animate/animate.min.css" rel="stylesheet">
+        <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+
+        <!-- Customized Bootstrap Stylesheet -->
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+
+        <!-- Template Stylesheet -->
+        <link href="css/style.css" rel="stylesheet">
+    </head>
+
+    <body>
+        <!-- Spinner Start -->
+        <div id="spinner" class="show w-100 vh-100 bg-white position-fixed translate-middle top-50 start-50 d-flex align-items-center justify-content-center">
+            <div class="spinner-grow text-primary" role="status"></div>
+        </div>
+        <!-- Spinner End -->
+
+        <!-- Topbar Start -->
+        <div class="container-fluid topbar-top bg-primary">
+            <div class="container">
+                <div class="d-flex justify-content-between topbar py-2">
+                    <div class="d-flex align-items-center flex-shrink-0 topbar-info">                        
+                        <a href="https://wa.me/5583986556461" target="_blank" class="me-4 text-secondary"><i class="fab fa-whatsapp me-2 text-dark">                            
+                        </i><b>Consultorias e Desenvolvimento (83) 98655-6461</b></a>
+                        <a href="#" class="text-secondary" style="pointer-events: none;"><i class="fas fa-envelope me-2 text-dark"></i>scriptdevbr@gmail.com</a>
+                    </div>   
+                    <!--                 
+                    <div class="d-flex align-items-center justify-content-center topbar-icon">
+                        <a href="#" class="me-4"><i class="fab fa-facebook-f text-dark"></i></a>
+                        <a href="#" class="me-4"><i class="fab fa-twitter text-dark"></i></a>
+                        <a href="#" class="me-4"><i class="fab fa-instagram text-dark"></i></a>
+                        <a href="#" class=""><i class="fab fa-linkedin-in text-dark"></i></a>
+                    </div>
+                    -->
+                </div>
+            </div>
+        </div>
+        <!-- Topbar End -->
+
+
+        <!-- Navbar Start -->
+        <div class="container-fluid bg-dark">
+            <div class="container">
+                <nav class="navbar navbar-dark navbar-expand-lg py-lg-0">
+                    <a href="index.html" class="navbar-brand">                        
+                        <img src="/img/logo_scriptdev.png"> 
+                    </a>
+                    <button class="navbar-toggler bg-primary" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+                        <span class="fa fa-bars text-dark"></span>
+                    </button>
+                    <!--
+                    <div class="collapse navbar-collapse me-n3" id="navbarCollapse">
+                        <div class="navbar-nav ms-auto">
+                            <a href="index.html" class="nav-item nav-link active">Home</a>
+                            <a href="about.html" class="nav-item nav-link">About</a>
+                            <a href="service.html" class="nav-item nav-link">Services</a>
+                            <a href="project.html" class="nav-item nav-link">Projects</a>
+                            <div class="nav-item dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Pages</a>
+                                <div class="dropdown-menu m-0 bg-primary">
+                                    <a href="price.html" class="dropdown-item">Pricing Plan</a>
+                                    <a href="blog.html" class="dropdown-item">Blog Post</a>
+                                    <a href="team.html" class="dropdown-item">Team Members</a>
+                                    <a href="testimonial.html" class="dropdown-item">Testimonial</a>
+                                    <a href="404.html" class="dropdown-item">404 Page</a>
+                                </div>
+                            </div>
+                            <a href="contact.html" class="nav-item nav-link">Contact</a>
+                        </div>
+                    </div>
+                    --> 
+                </nav>
+            </div>
+        </div>
+        <!-- Navbar End -->
+
+
+        <!-- Carousel Start -->
+        <div class="container-fluid carousel px-0 mb-5 pb-5">
+            <div id="carouselId" class="carousel slide" data-bs-ride="carousel">
+                <ol class="carousel-indicators">
+                    <li data-bs-target="#carouselId" data-bs-slide-to="0" class="active" aria-current="true" aria-label="First slide"></li>
+                    <li data-bs-target="#carouselId" data-bs-slide-to="1" aria-label="Second slide"></li>
+                </ol>
+                <div class="carousel-inner" role="listbox">
+                    <div class="carousel-item active">
+                        <img src="img/banner1.png" class="img-fluid w-100" alt="First slide">
+                        <div class="carousel-caption">
+                            <div class="container carousel-content">
+                                <h4 class="text-white mb-4 animated slideInDown">COMPARTILHANDO CONHECIMENTO : )</h4>
+                                <h1 class="text-white display-1 mb-4 animated slideInDown">ScriptDev | fabricio</h1>
+                                <a href="https://www.youtube.com/channel/UCkPWFf5GMmA4cOPwBrmeoSw?sub_confirmation=1" 
+                                target="_blank" 
+                                class="me-2"><button type="button" class="px-5 py-3 btn btn-primary border-2 rounded-pill animated slideInDown"><b>INSCREVA-SE!</b></button></a>
+                            </div>
+                        </div>
+                    </div>
+                    <!--
+                    <div class="carousel-item">
+                        <img src="img/carousel-1.jpg" class="img-fluid w-100" alt="Second slide">
+                        <div class="carousel-caption">
+                            <div class="container carousel-content">
+                                <h4 class="text-white mb-4 animated slideInDown">No 1 Pest Control Services</h4>
+                                <h1 class="text-white display-1 mb-4 animated slideInDown">Enjoy Your Home Totally Pest Free</h1>
+                                <a href="" class="me-2"><button type="button" class="px-5 py-3 btn btn-primary border-2 rounded-pill animated slideInDown">Read More</button></a>
+                            </div>
+                        </div>
+                    </div>
+                    -->
+                </div>
+                <button class="carousel-control-prev btn btn-primary border border-2 border-start-0 border-primary" type="button" data-bs-target="#carouselId" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next btn btn-primary border border-2 border-end-0 border-primary" type="button" data-bs-target="#carouselId" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </div>
+        <!-- Carousel End -->
+               
+
+
+        <!-- About Start -->
+        <div class="container-fluid py-5">
+            <div class="container py-5">
+                <div class="row g-5">
+                    <div class="col-lg-6 col-md-12 wow fadeInUp" data-wow-delay=".3s">
+                        <div class="about-img">
+                            <div class="rotate-left bg-dark"></div>
+                            <div class="rotate-right bg-dark"></div>
+                            <img src="img/foto_fab.png" class="img-fluid h-100">                            
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-12 wow fadeInUp" data-wow-delay=".6s">
+                        <div class="about-item overflow-hidden">                            
+                            <h1 class="display-5 mb-2">Fabricio Almeida</h1>
+                            <p class="fs-5" style="text-align: justify;">Paraibano arretado, sou um apaixonado por programação
+                            e tecnologia. Sempre que posso dou dicas de programação no meu canal do youtube                             
+                            <b><a style="color: black;" href="https://www.youtube.com/channel/UCkPWFf5GMmA4cOPwBrmeoSw?sub_confirmation=1" 
+                            target="_blank">ScriptDev</a></b>
+                            com o objetivo de compartilhar conhecimento! Atualmente estou focado no desenvolvimento web php e 
+                            sou um entusiasta do Adianti Framework! É ótimo para criar sistemas web php.. eu recomendo! 
+                            Também forneço consultorias e crio projetos personalizados. Vamos transformar suas ideias em soluções!                       
+                            </p>
+                            <!--
+                            <div class="row">                                
+                                <div class="col-3">
+                                    <div class="text-center">
+                                        <div class="p-4 bg-dark rounded d-flex" style="align-items: center; justify-content: center;">
+                                            <i class="fas fa-city fa-4x text-primary"></i>
+                                        </div>
+                                        <div class="my-2">
+                                            <h5>Building</h5>
+                                            <h5>Cleaning</h5>
+                                        </div>
+                                    </div>
+                                </div> 
+                            </div>
+                             -->
+                            <button type="button" onclick="window.open('https://wa.me/5583986556461', '_blank')" 
+                            class="btn btn-primary border-0 rounded-pill px-4 py-3 mt-5"><i class="fab fa-whatsapp"></i> <b>WHATSAPP</b></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- About End -->
+
+        <!-- Blog Start -->
+        <div class="container-fluid py-5">
+            <div class="container py-5">
+                <div class="text-center mb-5 wow fadeInUp" data-wow-delay=".3s">
+                    <h5 class="mb-2 px-3 py-1 text-dark rounded-pill d-inline-block border border-2 border-primary">MÓDULOS</h5>
+                    <h1 class="display-5">Tenho projetos prontos!</h1>
+                </div>
+                <div class="owl-carousel blog-carousel wow fadeInUp" data-wow-delay=".5s">
+                    <div class="blog-item">
+                        <img src="img/mod1.png" class="img-fluid w-100 rounded-top" alt="">
+                         <div class="rounded-bottom bg-light">
+                            <div class="d-flex justify-content-between p-4 pb-2">
+                                <span class="pe-2 text-dark"><i class="fa fa-user me-2"></i>Fabricio</span>
+                                <span class="text-dark"><i class="fab fa-php me-2"></i>PHP</span>
+                            </div>
+                            <div class="px-4 pb-0">
+                                <h4>Módulo Fluxo de Caixa</h4>
+                                <p>Adquira já um projeto pronto em php de Fluxo de Caixa com lançamentos de entradas, saídas, 
+                                transferências, relatórios financeiros do dia, mês, dashboard financeiro, etc..
+                                </p>
+                            </div>
+                            <div class="p-4 py-2 d-flex justify-content-between bg-primary rounded-bottom blog-btn">
+                                <a href="https://wa.me/5583986556461" target="_blank" type="button" class="btn btn-primary border-0"><b>EU QUERO</b></a>
+                                <a href="#" class="my-auto btn-primary border-0"><i class="fas fa-eye me-2"></i>VISUALIZAR</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="blog-item">
+                        <img src="img/mod2.png" class="img-fluid w-100 rounded-top" alt="">
+                         <div class="rounded-bottom bg-light">
+                            <div class="d-flex justify-content-between p-4 pb-2">
+                                <span class="pe-2 text-dark"><i class="fa fa-user me-2"></i>Fabricio</span>
+                                <span class="text-dark"><i class="fab fa-php me-2"></i>PHP</span>
+                            </div>
+                            <div class="px-4 pb-0">
+                                <h4>Módulo de Igrejas</h4>
+                                <p>Adquira já um projeto pronto em php de controle para igrejas com 
+                                cadastros de membros, líderes, pastor, lançamentos de ofertas, dízimos,
+                                de saídas, relatórios, dashboard, gráficos, etc..
+                                </p>
+                            </div>
+                            <div class="p-4 py-2 d-flex justify-content-between bg-primary rounded-bottom blog-btn">
+                                <a href="https://wa.me/5583986556461" target="_blank" type="button" class="btn btn-primary border-0"><b>EU QUERO</b></a>
+                                <a href="#" class="my-auto btn-primary border-0"><i class="fas fa-eye me-2"></i>VISUALIZAR</a>
+                            </div>
+                        </div>
+                    </div>                                       
+                    <div class="blog-item">
+                        <img src="img/mod3.png" class="img-fluid w-100 rounded-top" alt="">
+                         <div class="rounded-bottom bg-light">
+                            <div class="d-flex justify-content-between p-4 pb-2">
+                                <span class="pe-2 text-dark"><i class="fa fa-user me-2"></i>Fabricio</span>
+                                <span class="text-dark"><i class="fab fa-php me-2"></i>PHP</span>
+                            </div>
+                            <div class="px-4 pb-0">
+                                <h4>Módulo de Empregos</h4>
+                                <p>Adquira já um projeto pronto em php de gestão de empregos para candidatos.
+                                Com cadastros do candidato, empresa, vagas, controle de caixa, relatórios, etc..    
+                                </p>
+                            </div>
+                            <div class="p-4 py-2 d-flex justify-content-between bg-primary rounded-bottom blog-btn">
+                                <a href="https://wa.me/5583986556461" target="_blank" type="button" class="btn btn-primary border-0"><b>EU QUERO</b></a>
+                                <a href="#" class="my-auto btn-primary border-0"><i class="fas fa-eye me-2"></i>VISUALIZAR</a>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <!-- Blog End -->
+
+
+
+
+        <!-- pricing Start -->
+        <div class="container-fluid py-5">
+            <div class="container py-5">
+                <div class="text-center mb-5 wow fadeInUp" data-wow-delay=".3s">
+                    <h5 class="mb-2 px-3 py-1 text-dark rounded-pill d-inline-block border border-2 border-primary">CONSULTORIA</h5>
+                    <h1 class="display-5 w-50 mx-auto">Preços</h1>
+                </div>
+                <div class="row g-5">
+                    <div class="col-lg-4 col-md-6 col-sm-12 wow fadeInUp" data-wow-delay=".3s">
+                        <div class="rounded bg-light pricing-item">
+                            <div class="bg-primary py-3 px-5 text-center rounded-top border-bottom border-dark">
+                                <h2 class="m-0">1 hora</h2>
+                            </div>
+                            <div class="px-4 py-5 text-center bg-primary pricing-label mb-2">
+                                <h1 class="mb-0">R$ 80,00<span class="text-secondary fs-5 fw-normal">hora</span></h1>
+                                <p class="mb-0">Acesso Remoto</p>
+                            </div>
+                            <div class="p-4 text-center fs-5">
+                                <p><i class="fa fa-check text-success me-2"></i>Suporte remoto (AnyDesk)</p>
+                                <p><i class="fa fa-check text-success me-2"></i>Dúvidas sobre programação</p>
+                                <p><i class="fa fa-check text-success me-2"></i>Banco de dados</p>
+                                <p><i class="fa fa-check text-success me-2"></i>Personalização Template</p>
+                                <p><i class="fa fa-check text-success me-2"></i>Servidor</p>
+                                <button type="button" onclick="window.open('https://wa.me/5583986556461', '_blank')"
+                                class="btn btn-primary border-0 rounded-pill px-4 py-3 mt-3"><b>CONTRATAR</b></button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-12 wow fadeInUp" data-wow-delay=".5s">
+                        <div class="rounded bg-light pricing-item">
+                            <div class="bg-dark py-3 px-5 text-center rounded-top border-bottom border-primary">
+                                <h2 class="m-0 text-primary">Pacote 5 horas</h2>
+                            </div>
+                            <div class="px-4 py-5 text-center bg-dark pricing-label pricing-featured mb-2">
+                                <h1 class="mb-0 text-primary">R$ 50,00<span class="fs-5 fw-normal">hora</span></h1>
+                                <p class="mb-0 text-white">Acesso Remoto</p>
+                            </div>
+                            <div class="p-4 text-center fs-5">
+                                <p><i class="fa fa-check text-success me-2"></i>Suporte remoto (AnyDesk)</p>
+                                <p><i class="fa fa-check text-success me-2"></i>Dúvidas sobre programação</p>
+                                <p><i class="fa fa-check text-success me-2"></i>Banco de dados</p>
+                                <p><i class="fa fa-check text-success me-2"></i>Personalização Template</p>
+                                <p><i class="fa fa-check text-success me-2"></i>Servidor</p>
+                                <button type="button" onclick="window.open('https://wa.me/5583986556461', '_blank')"
+                                class="btn btn-dark border-0 text-primary rounded-pill px-4 py-3 mt-3"><b>CONTRATAR</b></button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-12 wow fadeInUp" data-wow-delay=".7s">
+                        <div class="rounded bg-light pricing-item">
+                            <div class="bg-primary py-3 px-5 text-center rounded-top border-bottom border-dark">
+                                <h2 class="m-0">Pacote Mensal</h2>
+                            </div>
+                            <div class="px-4 py-5 text-center bg-primary pricing-label mb-2">
+                                <h1 class="mb-0">R$ 25,00<span class="text-secondary fs-5 fw-normal">hora</span></h1>
+                                <p class="mb-0">Desenvolvimento no Projeto</p>
+                            </div>
+                            <div class="p-4 text-center fs-5">
+                                <p><i class="fa fa-check text-success me-2"></i>Suporte remoto (AnyDesk)</p>
+                                <p><i class="fa fa-check text-success me-2"></i>Desenvolvimento no seu projeto</p>
+                                <p><i class="fa fa-check text-success me-2"></i>Banco de dados</p>
+                                <p><i class="fa fa-check text-success me-2"></i>Personalização Template</p>
+                                <p><i class="fa fa-check text-success me-2"></i>Servidor</p>
+                                <button type="button" onclick="window.open('https://wa.me/5583986556461', '_blank')"
+                                class="btn btn-primary border-0 rounded-pill px-4 py-3 mt-3"><b>CONTRATAR</b></button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Pricing End -->
+
+        <!-- Testiminial Start -->
+        <div class="container-fluid testimonial py-5">
+            <div class="container py-5">
+                <div class="text-center mb-5 wow fadeInUp" data-wow-delay=".3s">
+                    <h5 class="mb-2 px-3 py-1 text-dark rounded-pill d-inline-block border border-2 border-primary">FEEDBACK</h5>
+                    <h5 class="display-5 w-50 mx-auto">Veja o que estão falando</h5>
+                </div>
+                <div class="owl-carousel testimonial-carousel wow fadeInUp" data-wow-delay=".5s">
+                    <div class="testimonial-item">                        
+                        <img src="img/com1.png" style="height:auto;">                        
+                    </div>
+                    <div class="testimonial-item">
+                        <img src="img/com2.png" style="height:auto;">  
+                    </div>                    
+                    <div class="testimonial-item">                        
+                        <img src="img/com3.png" style="height:auto;">                        
+                    </div>
+                    <div class="testimonial-item">
+                        <img src="img/com4.png" style="height:auto;">  
+                    </div>
+                    <div class="testimonial-item">                        
+                        <img src="img/com5.png" style="height:auto;">                        
+                    </div>
+                    <div class="testimonial-item">
+                        <img src="img/com6.png" style="height:auto;">  
+                    </div>
+                    <div class="testimonial-item">                        
+                        <img src="img/com7.png" style="height:auto;">                        
+                    </div>
+                    <div class="testimonial-item">
+                        <img src="img/com8.png" style="height:auto;">  
+                    </div>
+                    <div class="testimonial-item">                        
+                        <img src="img/com9.png" style="height:auto;">                        
+                    </div>                  
+                </div>
+            </div>
+        </div>
+        <!-- Testiminial End -->
+       
+        <!-- Back to Top -->
+        <a href="#" class="btn btn-primary rounded-circle border-3 back-to-top"><i class="fa fa-arrow-up"></i></a>
+        
+        <!-- JavaScript Libraries -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+        <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+        <script src="lib/wow/wow.min.js"></script>
+        <script src="lib/easing/easing.min.js"></script>
+        <script src="lib/waypoints/waypoints.min.js"></script>
+        <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+
+        <!-- Template Javascript -->
+        <script src="js/main.js"></script>
+    </body>
+
+</html>
